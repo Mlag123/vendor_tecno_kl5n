@@ -3,5 +3,6 @@ android_app_import {
     apk: "NetworkStackInProcessResOverlay.apk",
     presigned: true,
     privileged: true,
+    preprocessed: true,
     system_ext_specific: true,
 }
