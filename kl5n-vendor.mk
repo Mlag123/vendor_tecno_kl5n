@@ -63,8 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/kl5n/proprietary/vendor/lib64/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libhapticgenerator.so \
     vendor/tecno/kl5n/proprietary/vendor/lib64/libdts-eagle-shared.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libdts-eagle-shared.so \
     vendor/tecno/kl5n/proprietary/vendor/lib64/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libvibrator.so \
-    vendor/tecno/kl5n/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
-    vendor/tecno/kl5n/proprietary/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     vendor/tecno/kl5n/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
     vendor/tecno/kl5n/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/tecno/kl5n/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
@@ -80,9 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/kl5n/proprietary/system_ext/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hearing_aid_audio_policy_configuration.xml \
     vendor/tecno/kl5n/proprietary/system_ext/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/r_submix_audio_policy_configuration.xml \
     vendor/tecno/kl5n/proprietary/system_ext/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/usb_audio_policy_configuration.xml \
-    vendor/tecno/kl5n/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/a2dp_audio_policy_configuration.xml \
-    vendor/tecno/kl5n/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/a2dp_in_audio_policy_configuration.xml \
-    vendor/tecno/kl5n/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio_effects.xml \
+    vendor/tecno/kl5n/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     vendor/tecno/kl5n/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio_policy_configuration.xml \
     vendor/tecno/kl5n/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
     vendor/tecno/kl5n/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio_policy_volumes.xml \
@@ -740,19 +736,19 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/kl5n/proprietary/vendor/lib64/hw/lights.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/hw/lights.mt6768.so \
     vendor/tecno/kl5n/proprietary/vendor/lib/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/hw/local_time.default.so \
     vendor/tecno/kl5n/proprietary/vendor/lib64/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/hw/local_time.default.so \
-    vendor/tecno/kl5n/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-    vendor/tecno/kl5n/proprietary/lib/libmedia_codeclist.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmedia_codeclist.so \
-    vendor/tecno/kl5n/proprietary/lib/libstagefright_aidl_bufferpool2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_aidl_bufferpool2.so \
-    vendor/tecno/kl5n/proprietary/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferpool@2.0.1.so \
-    vendor/tecno/kl5n/proprietary/lib/libstagefright_codecbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_codecbase.so \
-    vendor/tecno/kl5n/proprietary/lib/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_framecapture_utils.so \
-    vendor/tecno/kl5n/proprietary/lib/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_surface_utils.so \
-    vendor/tecno/kl5n/proprietary/lib64/libmedia_codeclist.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmedia_codeclist.so \
-    vendor/tecno/kl5n/proprietary/lib64/libstagefright_aidl_bufferpool2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_aidl_bufferpool2.so \
-    vendor/tecno/kl5n/proprietary/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_bufferpool@2.0.1.so \
-    vendor/tecno/kl5n/proprietary/lib64/libstagefright_codecbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_codecbase.so \
-    vendor/tecno/kl5n/proprietary/lib64/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_framecapture_utils.so \
-    vendor/tecno/kl5n/proprietary/lib64/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_surface_utils.so \
+    vendor/tecno/kl5n/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+    vendor/tecno/kl5n/proprietary/vendor/lib/libmedia_codeclist.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmedia_codeclist.so \
+    vendor/tecno/kl5n/proprietary/vendor/lib/libstagefright_aidl_bufferpool2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_aidl_bufferpool2.so \
+    vendor/tecno/kl5n/proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferpool@2.0.1.so \
+    vendor/tecno/kl5n/proprietary/vendor/lib/libstagefright_codecbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_codecbase.so \
+    vendor/tecno/kl5n/proprietary/vendor/lib/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_framecapture_utils.so \
+    vendor/tecno/kl5n/proprietary/vendor/lib/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_surface_utils.so \
+    vendor/tecno/kl5n/proprietary/vendor/lib64/libmedia_codeclist.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmedia_codeclist.so \
+    vendor/tecno/kl5n/proprietary/vendor/lib64/libstagefright_aidl_bufferpool2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_aidl_bufferpool2.so \
+    vendor/tecno/kl5n/proprietary/vendor/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_bufferpool@2.0.1.so \
+    vendor/tecno/kl5n/proprietary/vendor/lib64/libstagefright_codecbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_codecbase.so \
+    vendor/tecno/kl5n/proprietary/vendor/lib64/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_framecapture_utils.so \
+    vendor/tecno/kl5n/proprietary/vendor/lib64/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_surface_utils.so \
     vendor/tecno/kl5n/proprietary/system_ext/lib/libged_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libged_sys.so \
     vendor/tecno/kl5n/proprietary/system_ext/lib/libgralloc_extra_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libgralloc_extra_sys.so \
     vendor/tecno/kl5n/proprietary/system_ext/lib/libsf_cpupolicy.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsf_cpupolicy.so \
@@ -1025,58 +1021,58 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/kl5n/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_qsqs.xml \
     vendor/tecno/kl5n/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss.xml \
     vendor/tecno/kl5n/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_tsts.xml \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/020b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/020b0000000000000000000000000000.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/020b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/020b0000000000000000000000000000.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/04010000000000000000000000003545.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/04010000000000000000000000003545.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/05060000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05060000000000000000000000000000.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/05070000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05070000000000000000000000000000.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/05120000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05120000000000000000000000000000.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/05120000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05120000000000000000000000000000.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/05120000000000000000000000000001.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05120000000000000000000000000001.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/05120000000000000000000000000001.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05120000000000000000000000000001.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/06090000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/06090000000000000000000000000000.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/06090000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/06090000000000000000000000000000.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/07050000000000000000000000003545.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07050000000000000000000000003545.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/0706000000000000000000000000004d.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/0706000000000000000000000000004d.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/07060000000000000000000000007169.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07060000000000000000000000007169.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/07060000000000000000000000007169.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07060000000000000000000000007169.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/07061000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07061000000000000000000000000000.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/07070000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07070000000000000000000000000000.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/07070000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07070000000000000000000000000000.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/07170000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07170000000000000000000000000000.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/07170000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07170000000000000000000000000000.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/08020000000000000000000000007169.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08020000000000000000000000007169.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/08030000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08030000000000000000000000000000.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/08040000000000000000000000003419.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08040000000000000000000000003419.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/08050000000000000000000000003419.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08050000000000000000000000003419.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/08050000000000000000000000003419.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08050000000000000000000000003419.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/08070000000000000000000000008270.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08070000000000000000000000008270.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/08070000000000000000000000008270.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08070000000000000000000000008270.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/08090000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08090000000000000000000000000000.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/08110000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08110000000000000000000000000000.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/09010000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/09010000000000000000000000000000.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/09030000000000000000000000008270.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/09030000000000000000000000008270.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/09190000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/09190000000000000000000000000000.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/09190000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/09190000000000000000000000000000.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/40188311faf343488db888ad39496f9a.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/40188311faf343488db888ad39496f9a.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/40188311faf343488db888ad39496f9a.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/40188311faf343488db888ad39496f9a.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/5020170115e016302017012521300000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/5020170115e016302017012521300000.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/5020170115e016302017012521300000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/5020170115e016302017012521300000.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/85fbf4ccc2fd4a32922a4e90c56179de.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/85fbf4ccc2fd4a32922a4e90c56179de.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.drbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.tlbin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/98fb95bcb4bf42d26473eae48690d7ea.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/98fb95bcb4bf42d26473eae48690d7ea.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/9e412fe49fe460a16bada5a0eeef369f.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/9e412fe49fe460a16bada5a0eeef369f.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/abcd270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/abcd270ea5c44c58bcd3384a2fa2539e.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/ce4550edbcb1662566b006ebcb303050.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/ce4550edbcb1662566b006ebcb303050.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/df1edda8627911e980ae507b9d9a7e7d.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/df1edda8627911e980ae507b9d9a7e7d.tabin \
-    vendor/tecno/kl5n/proprietary/vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/020b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/020b0000000000000000000000000000.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/020b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/020b0000000000000000000000000000.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/030b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/030b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/030c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/030c0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/04010000000000000000000000003545.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/04010000000000000000000000003545.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/05060000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05060000000000000000000000000000.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/05070000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05070000000000000000000000000000.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/05120000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05120000000000000000000000000000.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/05120000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05120000000000000000000000000000.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/05120000000000000000000000000001.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05120000000000000000000000000001.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/05120000000000000000000000000001.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/05120000000000000000000000000001.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/06090000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/06090000000000000000000000000000.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/06090000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/06090000000000000000000000000000.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/07050000000000000000000000003545.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07050000000000000000000000003545.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/0706000000000000000000000000004d.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/0706000000000000000000000000004d.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/07060000000000000000000000007169.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07060000000000000000000000007169.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/07060000000000000000000000007169.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07060000000000000000000000007169.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/07061000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07061000000000000000000000000000.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/07070000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07070000000000000000000000000000.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/07070000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07070000000000000000000000000000.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/07170000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07170000000000000000000000000000.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/07170000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/07170000000000000000000000000000.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/08020000000000000000000000007169.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08020000000000000000000000007169.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/08030000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08030000000000000000000000000000.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/08040000000000000000000000003419.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08040000000000000000000000003419.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/08050000000000000000000000003419.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08050000000000000000000000003419.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/08050000000000000000000000003419.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08050000000000000000000000003419.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/08070000000000000000000000008270.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08070000000000000000000000008270.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/08070000000000000000000000008270.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08070000000000000000000000008270.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/08090000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08090000000000000000000000000000.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/08110000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/08110000000000000000000000000000.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/09010000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/09010000000000000000000000000000.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/09030000000000000000000000008270.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/09030000000000000000000000008270.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/09190000000000000000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/09190000000000000000000000000000.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/09190000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/09190000000000000000000000000000.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/40188311faf343488db888ad39496f9a.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/40188311faf343488db888ad39496f9a.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/40188311faf343488db888ad39496f9a.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/40188311faf343488db888ad39496f9a.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/5020170115e016302017012521300000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/5020170115e016302017012521300000.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/5020170115e016302017012521300000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/5020170115e016302017012521300000.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/85fbf4ccc2fd4a32922a4e90c56179de.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/85fbf4ccc2fd4a32922a4e90c56179de.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/9073f03a9618383bb1856eb3f990babd.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.drbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/9073f03a9618383bb1856eb3f990babd.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.tlbin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/98fb95bcb4bf42d26473eae48690d7ea.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/98fb95bcb4bf42d26473eae48690d7ea.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/9e412fe49fe460a16bada5a0eeef369f.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/9e412fe49fe460a16bada5a0eeef369f.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/abcd270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/abcd270ea5c44c58bcd3384a2fa2539e.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/ce4550edbcb1662566b006ebcb303050.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/ce4550edbcb1662566b006ebcb303050.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/df1edda8627911e980ae507b9d9a7e7d.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/df1edda8627911e980ae507b9d9a7e7d.tabin \
+    vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin \
     vendor/tecno/kl5n/proprietary/vendor/bin/hw/trandatacenter:$(TARGET_COPY_OUT_VENDOR)/vendor/bin/hw/trandatacenter \
     vendor/tecno/kl5n/proprietary/vendor/bin/hw/tranradionet:$(TARGET_COPY_OUT_VENDOR)/vendor/bin/hw/tranradionet \
     vendor/tecno/kl5n/proprietary/vendor/bin/hw/vendor.focaltech.hardware.biometrics.fingerprint@1.0-service:$(TARGET_COPY_OUT_VENDOR)/vendor/bin/hw/vendor.focaltech.hardware.biometrics.fingerprint@1.0-service \
@@ -1684,7 +1680,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/kl5n/proprietary/vendor/firmware/soc1_0_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/vendor/firmware/soc1_0_ram_mcu_1a_1_hdr.bin \
     vendor/tecno/kl5n/proprietary/vendor/firmware/soc1_0_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/vendor/firmware/soc1_0_ram_wifi_1a_1_hdr.bin \
     vendor/tecno/kl5n/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/firmware/wifi.cfg \
-    vendor/tecno/kl5n/proprietary/vendor/framework/com.transsion.tranfacsdk.jar:$(TARGET_COPY_OUT_VENDOR)/vendor/framework/com.transsion.tranfacsdk.jar \
+    vendor/tecno/kl5n/proprietary/framework/com.transsion.tranfacsdk.jar:$(TARGET_COPY_OUT_VENDOR)/vendor/framework/com.transsion.tranfacsdk.jar \
     vendor/tecno/kl5n/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/hw/audio_policy.stub.so \
     vendor/tecno/kl5n/proprietary/vendor/lib/hw/face.default.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/hw/face.default.so \
     vendor/tecno/kl5n/proprietary/vendor/lib/hw/fpsensor_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/hw/fpsensor_fingerprint.default.so \
