@@ -235,7 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/kl5n/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
     vendor/tecno/kl5n/proprietary/vendor/bin/hw/android.hardware.boot@1.2-service:$(TARGET_COPY_OUT_VENDOR)/vendor/bin/hw/android.hardware.boot@1.2-service \
     vendor/tecno/kl5n/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/init/android.hardware.boot@1.2-service.rc \
-    vendor/tecno/kl5n/proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml \
     vendor/tecno/kl5n/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/vendor/bin/hw/camerahalserver \
     vendor/tecno/kl5n/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/init/camerahalserver.rc \
     vendor/tecno/kl5n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
@@ -1637,10 +1636,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/kl5n/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/mtk_platform_codecs_config.xml \
     vendor/tecno/kl5n/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/partition_permission.sh \
     vendor/tecno/kl5n/proprietary/vendor/etc/pnpmgr.db:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/pnpmgr.db \
-    vendor/tecno/kl5n/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/power_app_cfg.xml \
-    vendor/tecno/kl5n/proprietary/vendor/etc/power_app_fling_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/power_app_fling_cfg.xml \
-    vendor/tecno/kl5n/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/powercontable.xml \
-    vendor/tecno/kl5n/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/powerscntbl.xml \
     vendor/tecno/kl5n/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/public.libraries.txt \
     vendor/tecno/kl5n/proprietary/vendor/etc/qt.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/qt.cfg \
     vendor/tecno/kl5n/proprietary/vendor/etc/resolution_tuner_app_list.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/resolution_tuner_app_list.xml \
