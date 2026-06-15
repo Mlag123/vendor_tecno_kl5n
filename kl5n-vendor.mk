@@ -1017,10 +1017,10 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/kl5n/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/tecno/kl5n/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/wifi/wpa_supplicant.conf \
     vendor/tecno/kl5n/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/tecno/kl5n/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_dsds.xml \
-    vendor/tecno/kl5n/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_qsqs.xml \
-    vendor/tecno/kl5n/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss.xml \
-    vendor/tecno/kl5n/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_tsts.xml \
+    vendor/tecno/kl5n/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_dsds.xml \
+    vendor/tecno/kl5n/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/tecno/kl5n/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss.xml \
+    vendor/tecno/kl5n/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_tsts.xml \
     vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/020b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/020b0000000000000000000000000000.drbin \
     vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/020b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/020b0000000000000000000000000000.tlbin \
     vendor/tecno/kl5n/proprietary/priv-app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin \
@@ -2057,11 +2057,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/kl5n/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/odm/etc/vintf/manifest_qsqs.xml \
     vendor/tecno/kl5n/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/odm/etc/vintf/manifest_ss.xml \
     vendor/tecno/kl5n/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_VENDOR)/vendor/odm/etc/vintf/manifest_tsts.xml \
-    vendor/tecno/kl5n/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/vendor/res/images/lcd_test_00.png \
-    vendor/tecno/kl5n/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/vendor/res/images/lcd_test_01.png \
-    vendor/tecno/kl5n/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/vendor/res/images/lcd_test_02.png \
-    vendor/tecno/kl5n/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/vendor/res/sound/ringtone.wav \
-    vendor/tecno/kl5n/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/vendor/res/sound/testpattern1.wav \
     vendor/tecno/kl5n/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/vendor/libnfc-nxp_RF.conf \
     vendor/tecno/kl5n/proprietary/vendor/ro.prop:$(TARGET_COPY_OUT_VENDOR)/vendor/ro.prop \
     vendor/tecno/kl5n/proprietary/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/vendor/rw.prop \
